@@ -1,0 +1,9 @@
+def fibonacci(n):
+    if(n<=1):
+      return n
+    else:
+      return(fibonacci(n-1)+fbonacci(n-2))
+N = int (input("Enter number of terms:"))
+Print("Fibonacci sequence:")
+for i in range (n):
+    print(fibonacci(i))
